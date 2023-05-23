@@ -1,0 +1,48 @@
+body{
+    background-color: #eae6e6;
+}
+h1{
+    color:#367ef1 ;
+    font-size: 32px;
+}
+
+#loginBtn{
+    background-color: #367ef1;
+    color: white;
+    width: 60%; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+#newAcc{
+    background-color: #23b623;
+    color: white;
+    margin-bottom: 40px;
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+.form{
+    padding-top: 20px;
+    background-color: white;
+    border: black;
+    border-radius: 10px;
+    margin-left: 50%;
+    text-align: center;
+    width: 30%;
+}
+
+.text{
+    width: 60%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.fb{
+    margin-top: 100px;
+}
