@@ -67,3 +67,11 @@ h3{
 a[href]{
     text-decoration: none;
 }
+
+footer{
+    background-color: white;
+    margin-top: 10%;
+}
+.foot{
+    padding-left: 10%;
+}
