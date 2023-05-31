@@ -1,9 +1,79 @@
-.card-img{
-    height: 60%;
-    width:40%
-}
-
 footer{
     width: 100%;
     padding: 2%;
+}
+
+.bg1{
+    padding-top: 20%;
+    width: 40%;
+    height: 80%;
+}
+
+.div1{
+    background-color: #ffcc00;
+    width:100%;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav{
+    width: 100%;
+    background-color: #cca300;
+    padding: 5%;
+}
+
+.div2{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.div3{
+    background-color: #ffcc00;
+    width:100%;
+    color: white;
+    padding: 5% 10% 5% 10%;
+    margin-top: 5%;
+}
+
+.block1{
+    padding: 5%;
+}
+
+.img3{
+    height: 320px;
+}
+.div3 .card{
+    background-color: #ffcc00;
+} 
+
+/* .img2{
+    height: 80% ;
+    padding-top: 5%;
+}
+
+.img3{
+    height: 200px;
+} */ 
+
+@media screen and (max-width:1000px){
+    .div1,.div2,.div3{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 10px;
+    }
+    .bg1{
+        padding-top: 0%;
+    }
+    .img2{
+        padding-top: 0%;
+        height: 60%;
+        padding-bottom: 2%;
+    }
+    .img3{
+        height: 200px;
+    }
 }
