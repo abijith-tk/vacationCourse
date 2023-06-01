@@ -62,8 +62,28 @@ nav{
     color: black!important
 }
 
+.navbar-brand{
+    margin-left: 5%;
+}
 
-@media screen and (max-width:1000px){
+nav a{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Media queries */
+
+@media  screen and (max-width:1200px) {
+    .text-end{
+        text-align: center!important
+    }
+    .img3{
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:800px){
     .div1,.div2,.div3{
         padding-left: 20px;
         padding-right: 20px;
@@ -78,9 +98,11 @@ nav{
         padding-bottom: 2%;
     }
     .img3{
-        height: 200px;
+        width: 80%;
+        height: auto;
     }
     .text-end{
         text-align:center!important
     }
 }
+
