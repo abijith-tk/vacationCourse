@@ -51,14 +51,28 @@ nav{
 } 
 
 .form-control{
-    margin-right: -5px;
+    margin-right: 0px;
+    border-radius: 0px;
+}
+
+.search{
+    border-radius: 0px;
+    border-color: white;
 }
 
 .div3 button{
     border-radius: 20px;
 }
 
+.btn-primary{
+    color: white;
+}
+
 .btn-transparent:hover{
+    color: black!important
+}
+
+.btn-warning:hover{
     color: black!important
 }
 
@@ -70,6 +84,12 @@ nav a{
     margin-right: 10px;
     margin-bottom: 10px;
 }
+
+.icon{
+    border-color: white ;
+    border-radius: 20px;
+}
+
 
 /* Media queries */
 
