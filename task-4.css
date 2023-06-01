@@ -50,14 +50,18 @@ nav{
     background-color: #ffcc00;
 } 
 
-/* .img2{
-    height: 80% ;
-    padding-top: 5%;
+.form-control{
+    margin-right: -5px;
 }
 
-.img3{
-    height: 200px;
-} */ 
+.div3 button{
+    border-radius: 20px;
+}
+
+.btn-transparent:hover{
+    color: black!important
+}
+
 
 @media screen and (max-width:1000px){
     .div1,.div2,.div3{
@@ -75,5 +79,8 @@ nav{
     }
     .img3{
         height: 200px;
+    }
+    .text-end{
+        text-align:center!important
     }
 }
