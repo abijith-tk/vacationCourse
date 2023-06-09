@@ -35,7 +35,7 @@ nav{
     padding-bottom: 5%;
 }
 
-.div3{
+.div3,.div3-bg{
     width:100%;
     color: white;
     padding: 5% 10% 5% 10%;
@@ -43,6 +43,12 @@ nav{
     background-color: #ffcc00; 
 }
 
+.div3-bg{
+    width: 100%;
+    background-image:linear-gradient(to left, transparent,rgba(255, 204, 0,0.5),rgba(255, 204, 0,0.5)), url("assets/task-4-icons/8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .block1{
     padding: 5%;
 }
@@ -67,7 +73,9 @@ nav{
 .div3 .card{
     background-color: #ffcc00;
 } 
-
+.div3-bg .card{
+    background-color: #ffcc00;
+}
 .form-control{
     margin-right: 0px;
     border-radius: 0px;
@@ -133,11 +141,17 @@ nav .form-control{
     margin-right: auto;
 }
 
+/* .image{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(255, 204, 0,0.5);
+} */
+
 /* Media queries */
 
 @media  screen and (max-width:1200px) {
     .text-end{
-        text-align: right!important
+        text-align: right!important;
     }
     .img3{
         width: 250px;
@@ -151,7 +165,7 @@ nav .form-control{
 }
 
 @media screen and (max-width:800px){
-    .div1,.div2,.div3{
+    .div1,.div2,.div3,.div3-bg{
         padding-left: 20px;
         padding-right: 20px;
         margin-bottom: 10px;
