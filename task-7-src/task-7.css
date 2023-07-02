@@ -1,3 +1,15 @@
 .main-btn{
     margin-left: 80%;
 }
+
+td{
+    margin: 10px;
+}
+
+.dropdown-toggle,.form-control{
+    border-color: black;
+}
+
+.dropdown-center{
+    text-align: center;
+}
