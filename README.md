@@ -9,3 +9,5 @@
 - [task-4&5](https://abijith-tk.github.io/vacationCourse/task-4.html)
 
 - [task-6](https://abijith-tk.github.io/vacationCourse/task-6.html)
+
+- [task-7](https://abijith-tk.github.io/vacationCourse/task-7.html)
